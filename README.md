@@ -1,3 +1,3 @@
 # PicoPT
 
-PicoPT is a lightweight prayer times app that focuses on simplicity and design.
+PicoPT is a simple, lightweight and minimalist app that provides prayer times for Muslims in Malaysia.
