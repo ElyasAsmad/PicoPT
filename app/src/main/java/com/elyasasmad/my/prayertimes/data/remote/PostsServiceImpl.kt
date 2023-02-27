@@ -57,7 +57,7 @@ class PostsServiceImpl(
     override suspend fun getPrayerTimes(): PrayerTimeResponse? {
         return try {
             client.get {
-                url(HttpRoutes.ESOLAT_URL)
+                url(HttpRoutes.PICOSOLAT_URL)
             }
         } catch (e: RedirectResponseException) {
             println("Error: ${e.response.status.description}")
