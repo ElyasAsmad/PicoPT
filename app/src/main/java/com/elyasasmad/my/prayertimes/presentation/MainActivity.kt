@@ -72,6 +72,14 @@ fun WearApp() {
 
     }
 
+    fun savePrayerTimes() {
+
+    }
+
+    fun getLatestPrayerTimes() {
+
+    }
+
     PrayerTimesWearAppTheme {
 
         val listState = rememberScalingLazyListState()
